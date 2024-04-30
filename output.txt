@@ -1,0 +1,71 @@
+Calculating accuracy for SVM with RBF kernel
+
+        Fold 1
+        Correctly classified: 43107
+        Incorrectly classified: 6098
+        Accuracy: 0.876070
+        Accuracy: 0.876070
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.89      0.93     46473
+         1.0       0.25      0.63      0.36      2732
+
+    accuracy                           0.88     49205
+   macro avg       0.61      0.76      0.65     49205
+weighted avg       0.94      0.88      0.90     49205
+
+        Fold 2
+        Correctly classified: 43138
+        Incorrectly classified: 6067
+        Accuracy: 0.876700
+        Accuracy: 0.876700
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.89      0.93     46485
+         1.0       0.26      0.66      0.37      2720
+
+    accuracy                           0.88     49205
+   macro avg       0.62      0.77      0.65     49205
+weighted avg       0.94      0.88      0.90     49205
+
+        Fold 3
+        Correctly classified: 43376
+        Incorrectly classified: 5828
+        Accuracy: 0.881554
+        Accuracy: 0.881554
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.89      0.93     46512
+         1.0       0.27      0.67      0.38      2692
+
+    accuracy                           0.88     49204
+   macro avg       0.62      0.78      0.66     49204
+weighted avg       0.94      0.88      0.90     49204
+
+        Fold 4
+        Correctly classified: 43109
+        Incorrectly classified: 6095
+        Accuracy: 0.876128
+        Accuracy: 0.876128
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.89      0.93     46432
+         1.0       0.26      0.64      0.37      2772
+
+    accuracy                           0.88     49204
+   macro avg       0.62      0.77      0.65     49204
+weighted avg       0.94      0.88      0.90     49204
+
+        Fold 5
+        Correctly classified: 43647
+        Incorrectly classified: 5557
+        Accuracy: 0.887062
+        Accuracy: 0.887062
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.90      0.94     46685
+         1.0       0.26      0.63      0.36      2519
+
+    accuracy                           0.89     49204
+   macro avg       0.62      0.77      0.65     49204
+weighted avg       0.94      0.89      0.91     49204
