@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 
 # libraries for crossfold
 from sklearn.model_selection import KFold, GridSearchCV
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 
 # Read MNIST data
@@ -39,6 +39,11 @@ for k, (train_index, test_index) in enumerate(kf.split(X,y)):
     clf = make_pipeline(StandardScaler(), SVC(kernel='rbf', gamma='auto', class_weight='balanced'))
     clf.fit(X_train, y_train)
     results = clf.predict(X_test)
+
+    disp = ConfusionMatrixDisplay.from_predictions(y_test, results)
+    disp.plot()
+    plt.show()
+
 
     # compare predictions and truth
     count = 0
